@@ -605,6 +605,8 @@ def new(request):
                 template = 'firefox/new/berlin/scene1.html'
         elif locale == 'de' and experience == 'herz':
             template = 'firefox/new/berlin/scene1-herz.html'
+        elif locale == 'ru':
+            template = 'firefox/new/yandex/scene1.html'
         elif locale == 'en-US':
             if experience in ['portland', 'forgood']:
                 template = 'firefox/new/portland/scene1.html'
